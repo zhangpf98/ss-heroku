@@ -22,7 +22,7 @@
 
 ## 2. 客户端配置
 
-二维码地址： https://test.herokuapp.com/qr_img/v2.png
+二维码地址： https://zhangpf98.herokuapp.com/qr_img/v2.png
 (test改成自己的app名称，如果更改了QR_Path，同时也要将对应的qr_img改成修改后的)
 
 使用客户端扫描二维码即可。
@@ -38,14 +38,14 @@
 手动配置：
 
 ```sh
-Server: test.herokuapp.com （test换为你的app名称）
+Server: zhangpf98.herokuapp.com （test换为你的app名称）
 Port: 443
-Password: 部署时填写的密码
+Password: ma19861218
 Encry Method： RC4-MD5 （或者你填写的其它方式）
 Plugin: v2ray
 Plugin Transport mode: websocket-tls
-Hostname: 同Server
-Path： 你部署时填写的路径
+Hostname: zhangpf98.herokuapp.com
+Path： zhangpf98.ss-heroku
 ```
 
 没有客户端的也可以从这里下载(Android)：
